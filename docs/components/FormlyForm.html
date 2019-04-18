@@ -1,0 +1,1360 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Angular Formly</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	      <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">Angular Formly</a>
+            <button type="button" class="btn btn-default btn-menu fa fa-bars" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+            <div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search">
+</div>
+            <nav>
+
+    <ul class="list">
+
+        <li class="title">
+            <a href="index.html" data-type="index-link">Angular Formly</a>
+        </li>
+
+        <li class="divider"></li>
+
+
+        <li class="chapter">
+            <a data-type="chapter-link" href="index.html"><span class="fa fa-home"></span>Getting started</a>
+            <ul class="links">
+                    <li class="link">
+                        <a 
+                            
+                             href="overview.html" 
+                             href="overview.html" 
+                            data-type="chapter-link">
+                            <span class="fa fa-fw fa-th"></span>Overview
+                        </a>
+                    </li>
+                    <li class="link">
+                      <a href="index.html" data-type="chapter-link"><span class="fa fa-file-text-o"></span>README</a>
+                    </li>
+                    <li class="link">
+                            <a href="changelog.html"
+                        data-type="chapter-link">
+                            <span class="fa fa-fw fa-file-text-o"></span>CHANGELOG
+                        </a>
+                    </li>
+                    <li class="link">
+                            <a href="contributing.html"
+                        data-type="chapter-link">
+                            <span class="fa fa-fw fa-file-text-o"></span>CONTRIBUTING
+                        </a>
+                    </li>
+                    <li class="link">
+                            <a href="license.html"
+                        data-type="chapter-link">
+                            <span class="fa fa-fw fa-file-text-o"></span>LICENSE
+                        </a>
+                    </li>
+                    <li class="link">
+                        <a href="dependencies.html"
+                            data-type="chapter-link">
+                            <span class="fa fa-fw fa-list"></span>Dependencies
+                        </a>
+                    </li>
+            </ul>
+        </li>
+
+
+        <li class="chapter modules">
+            <a data-type="chapter-link" href="modules.html">
+                <div class="menu-toggler linked" data-toggle="collapse"
+                        data-target="#xs-modules-links"
+                >
+                    <span class="fa fa-fw fa-archive"></span>
+                    <span class="link-name">Modules</span>
+                    <span class="fa fa-angle-down"></span>
+                </div>
+            </a>
+            <ul class="links collapse"
+                    id="xs-modules-links"
+                >
+                    <li class="link">
+                        <a href="modules/FormlyModule.html" data-type="entity-link">FormlyModule</a>
+                            <li class="chapter inner">
+                                <div class="simple menu-toggler" data-toggle="collapse"
+                                        data-target="#xs-components-links-module-FormlyModule-58a1ba080ebce8576f570bd246ef3b20"
+                                    >
+                                    <span class="fa fa-fw fa-cogs"></span>
+                                    <span>Components</span>
+                                    <span class="fa fa-angle-down"></span>
+                                </div>
+                                <ul class="links collapse"
+                                        id="xs-components-links-module-FormlyModule-58a1ba080ebce8576f570bd246ef3b20"
+                                    >
+                                        <li class="link">
+                                            <a href="components/FormlyField.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">FormlyField</a>
+                                        </li>
+                                        <li class="link">
+                                            <a href="components/FormlyForm.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">FormlyForm</a>
+                                        </li>
+                                        <li class="link">
+                                            <a href="components/FormlyGroup.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">FormlyGroup</a>
+                                        </li>
+                                        <li class="link">
+                                            <a href="components/FormlyValidationMessage.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">FormlyValidationMessage</a>
+                                        </li>
+                                </ul>
+                            </li>
+                            <li class="chapter inner">
+                                <div class="simple menu-toggler" data-toggle="collapse"
+                                        data-target="#xs-directives-links-module-FormlyModule-58a1ba080ebce8576f570bd246ef3b20"
+                                    >
+                                    <span class="fa fa-fw fa-code"></span>
+                                    <span>Directives</span>
+                                    <span class="fa fa-angle-down"></span>
+                                </div>
+                                <ul class="links collapse"
+                                        id="xs-directives-links-module-FormlyModule-58a1ba080ebce8576f570bd246ef3b20"
+                                    >
+                                        <li class="link">
+                                            <a href="directives/FormlyAttributes.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">FormlyAttributes</a>
+                                        </li>
+                                </ul>
+                            </li>
+                    </li>
+            </ul>
+        </li>
+
+
+
+        <li class="chapter">
+            <div class="simple menu-toggler" data-toggle="collapse"
+                    data-target="#xs-classes-links"
+                >
+                <span class="fa fa-fw fa-file-code-o"></span>
+                <span>Classes</span>
+                <span class="fa fa-angle-down"></span>
+            </div>
+            <ul class="links collapse"
+                    id="xs-classes-links"
+                >
+                    <li class="link">
+                        <a href="classes/Field.html" data-type="entity-link">Field</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/FieldArrayType.html" data-type="entity-link">FieldArrayType</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/FieldType.html" data-type="entity-link">FieldType</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/FieldWrapper.html" data-type="entity-link">FieldWrapper</a>
+                    </li>
+            </ul>
+        </li>
+
+                <li class="chapter">
+                    <div class="simple menu-toggler" data-toggle="collapse"
+                            data-target="#xs-injectables-links"
+                        >
+                        <span class="fa fa-fw fa-long-arrow-down"></span>
+                        <span>Injectables</span>
+                        <span class="fa fa-angle-down"></span>
+                    </div>
+                    <ul class="links collapse"
+                            id="xs-injectables-links"
+                        >
+                            <li class="link">
+                                <a href="injectables/FormlyConfig.html" data-type="entity-link">FormlyConfig</a>
+                            </li>
+                            <li class="link">
+                                <a href="injectables/FormlyFormBuilder.html" data-type="entity-link">FormlyFormBuilder</a>
+                            </li>
+                    </ul>
+                </li>
+
+
+        <li class="chapter">
+            <div class="simple menu-toggler" data-toggle="collapse"
+                    data-target="#xs-interfaces-links"
+                >
+                <span class="fa fa-fw fa-info"></span>
+                <span>Interfaces</span>
+                <span class="fa fa-angle-down"></span>
+            </div>
+            <ul class="links collapse"
+                    id="xs-interfaces-links"
+                >
+                    <li class="link">
+                        <a href="interfaces/ConfigOption.html" data-type="entity-link">ConfigOption</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/FieldValidatorFn.html" data-type="entity-link">FieldValidatorFn</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/FormlyFieldConfig.html" data-type="entity-link">FormlyFieldConfig</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/FormlyFormOptions.html" data-type="entity-link">FormlyFormOptions</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/FormlyLifeCycleFn.html" data-type="entity-link">FormlyLifeCycleFn</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/FormlyLifeCycleOptions.html" data-type="entity-link">FormlyLifeCycleOptions</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/FormlyTemplateOptions.html" data-type="entity-link">FormlyTemplateOptions</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/FormlyValueChangeEvent.html" data-type="entity-link">FormlyValueChangeEvent</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/ManipulatorOption.html" data-type="entity-link">ManipulatorOption</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/ManipulatorWrapper.html" data-type="entity-link">ManipulatorWrapper</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/TemplateManipulators.html" data-type="entity-link">TemplateManipulators</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/TypeOption.html" data-type="entity-link">TypeOption</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/ValidationMessageOption.html" data-type="entity-link">ValidationMessageOption</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/ValidatorOption.html" data-type="entity-link">ValidatorOption</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/WrapperOption.html" data-type="entity-link">WrapperOption</a>
+                    </li>
+            </ul>
+        </li>
+
+
+        <li class="chapter">
+            <div class="simple menu-toggler" data-toggle="collapse"
+                    data-target="#xs-miscellaneous-links"
+                >
+                <span class="fa fa-fw fa-cubes"></span>
+                <span>Miscellaneous</span>
+                <span class="fa fa-angle-down"></span>
+            </div>
+            <ul class="links collapse"
+                    id="xs-miscellaneous-links"
+                >
+                    <li class="link">
+                      <a href="miscellaneous/functions.html" data-type="entity-link">Functions</a>
+                    </li>
+                    <li class="link">
+                      <a href="miscellaneous/typealiases.html" data-type="entity-link">Type aliases</a>
+                    </li>
+                    <li class="link">
+                      <a href="miscellaneous/variables.html" data-type="entity-link">Variables</a>
+                    </li>
+            </ul>
+        </li>
+
+
+
+
+    </ul>
+
+</nav>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <nav>
+
+    <ul class="list">
+
+        <li class="title">
+            <a href="index.html" data-type="index-link">Angular Formly</a>
+        </li>
+
+        <li class="divider"></li>
+
+            <div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search">
+</div>
+
+        <li class="chapter">
+            <a data-type="chapter-link" href="index.html"><span class="fa fa-home"></span>Getting started</a>
+            <ul class="links">
+                    <li class="link">
+                        <a 
+                            
+                             href="overview.html" 
+                             href="overview.html" 
+                            data-type="chapter-link">
+                            <span class="fa fa-fw fa-th"></span>Overview
+                        </a>
+                    </li>
+                    <li class="link">
+                      <a href="index.html" data-type="chapter-link"><span class="fa fa-file-text-o"></span>README</a>
+                    </li>
+                    <li class="link">
+                            <a href="changelog.html"
+                        data-type="chapter-link">
+                            <span class="fa fa-fw fa-file-text-o"></span>CHANGELOG
+                        </a>
+                    </li>
+                    <li class="link">
+                            <a href="contributing.html"
+                        data-type="chapter-link">
+                            <span class="fa fa-fw fa-file-text-o"></span>CONTRIBUTING
+                        </a>
+                    </li>
+                    <li class="link">
+                            <a href="license.html"
+                        data-type="chapter-link">
+                            <span class="fa fa-fw fa-file-text-o"></span>LICENSE
+                        </a>
+                    </li>
+                    <li class="link">
+                        <a href="dependencies.html"
+                            data-type="chapter-link">
+                            <span class="fa fa-fw fa-list"></span>Dependencies
+                        </a>
+                    </li>
+            </ul>
+        </li>
+
+
+        <li class="chapter modules">
+            <a data-type="chapter-link" href="modules.html">
+                <div class="menu-toggler linked" data-toggle="collapse"
+                        data-target="#modules-links"
+                >
+                    <span class="fa fa-fw fa-archive"></span>
+                    <span class="link-name">Modules</span>
+                    <span class="fa fa-angle-down"></span>
+                </div>
+            </a>
+            <ul class="links collapse"
+                    id="modules-links"
+>
+                    <li class="link">
+                        <a href="modules/FormlyModule.html" data-type="entity-link">FormlyModule</a>
+                            <li class="chapter inner">
+                                <div class="simple menu-toggler" data-toggle="collapse"
+                                        data-target="#components-links-module-FormlyModule-58a1ba080ebce8576f570bd246ef3b20"
+>
+                                    <span class="fa fa-fw fa-cogs"></span>
+                                    <span>Components</span>
+                                    <span class="fa fa-angle-down"></span>
+                                </div>
+                                <ul class="links collapse"
+                                        id="components-links-module-FormlyModule-58a1ba080ebce8576f570bd246ef3b20"
+>
+                                        <li class="link">
+                                            <a href="components/FormlyField.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">FormlyField</a>
+                                        </li>
+                                        <li class="link">
+                                            <a href="components/FormlyForm.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">FormlyForm</a>
+                                        </li>
+                                        <li class="link">
+                                            <a href="components/FormlyGroup.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">FormlyGroup</a>
+                                        </li>
+                                        <li class="link">
+                                            <a href="components/FormlyValidationMessage.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">FormlyValidationMessage</a>
+                                        </li>
+                                </ul>
+                            </li>
+                            <li class="chapter inner">
+                                <div class="simple menu-toggler" data-toggle="collapse"
+                                        data-target="#directives-links-module-FormlyModule-58a1ba080ebce8576f570bd246ef3b20"
+>
+                                    <span class="fa fa-fw fa-code"></span>
+                                    <span>Directives</span>
+                                    <span class="fa fa-angle-down"></span>
+                                </div>
+                                <ul class="links collapse"
+                                        id="directives-links-module-FormlyModule-58a1ba080ebce8576f570bd246ef3b20"
+>
+                                        <li class="link">
+                                            <a href="directives/FormlyAttributes.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules">FormlyAttributes</a>
+                                        </li>
+                                </ul>
+                            </li>
+                    </li>
+            </ul>
+        </li>
+
+
+
+        <li class="chapter">
+            <div class="simple menu-toggler" data-toggle="collapse"
+                    data-target="#classes-links"
+>
+                <span class="fa fa-fw fa-file-code-o"></span>
+                <span>Classes</span>
+                <span class="fa fa-angle-down"></span>
+            </div>
+            <ul class="links collapse"
+                    id="classes-links"
+>
+                    <li class="link">
+                        <a href="classes/Field.html" data-type="entity-link">Field</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/FieldArrayType.html" data-type="entity-link">FieldArrayType</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/FieldType.html" data-type="entity-link">FieldType</a>
+                    </li>
+                    <li class="link">
+                        <a href="classes/FieldWrapper.html" data-type="entity-link">FieldWrapper</a>
+                    </li>
+            </ul>
+        </li>
+
+                <li class="chapter">
+                    <div class="simple menu-toggler" data-toggle="collapse"
+                            data-target="#injectables-links"
+>
+                        <span class="fa fa-fw fa-long-arrow-down"></span>
+                        <span>Injectables</span>
+                        <span class="fa fa-angle-down"></span>
+                    </div>
+                    <ul class="links collapse"
+                            id="injectables-links"
+>
+                            <li class="link">
+                                <a href="injectables/FormlyConfig.html" data-type="entity-link">FormlyConfig</a>
+                            </li>
+                            <li class="link">
+                                <a href="injectables/FormlyFormBuilder.html" data-type="entity-link">FormlyFormBuilder</a>
+                            </li>
+                    </ul>
+                </li>
+
+
+        <li class="chapter">
+            <div class="simple menu-toggler" data-toggle="collapse"
+                    data-target="#interfaces-links"
+>
+                <span class="fa fa-fw fa-info"></span>
+                <span>Interfaces</span>
+                <span class="fa fa-angle-down"></span>
+            </div>
+            <ul class="links collapse"
+                    id="interfaces-links"
+>
+                    <li class="link">
+                        <a href="interfaces/ConfigOption.html" data-type="entity-link">ConfigOption</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/FieldValidatorFn.html" data-type="entity-link">FieldValidatorFn</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/FormlyFieldConfig.html" data-type="entity-link">FormlyFieldConfig</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/FormlyFormOptions.html" data-type="entity-link">FormlyFormOptions</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/FormlyLifeCycleFn.html" data-type="entity-link">FormlyLifeCycleFn</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/FormlyLifeCycleOptions.html" data-type="entity-link">FormlyLifeCycleOptions</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/FormlyTemplateOptions.html" data-type="entity-link">FormlyTemplateOptions</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/FormlyValueChangeEvent.html" data-type="entity-link">FormlyValueChangeEvent</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/ManipulatorOption.html" data-type="entity-link">ManipulatorOption</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/ManipulatorWrapper.html" data-type="entity-link">ManipulatorWrapper</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/TemplateManipulators.html" data-type="entity-link">TemplateManipulators</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/TypeOption.html" data-type="entity-link">TypeOption</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/ValidationMessageOption.html" data-type="entity-link">ValidationMessageOption</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/ValidatorOption.html" data-type="entity-link">ValidatorOption</a>
+                    </li>
+                    <li class="link">
+                        <a href="interfaces/WrapperOption.html" data-type="entity-link">WrapperOption</a>
+                    </li>
+            </ul>
+        </li>
+
+
+        <li class="chapter">
+            <div class="simple menu-toggler" data-toggle="collapse"
+                    data-target="#miscellaneous-links"
+>
+                <span class="fa fa-fw fa-cubes"></span>
+                <span>Miscellaneous</span>
+                <span class="fa fa-angle-down"></span>
+            </div>
+            <ul class="links collapse"
+                    id="miscellaneous-links"
+>
+                    <li class="link">
+                      <a href="miscellaneous/functions.html" data-type="entity-link">Functions</a>
+                    </li>
+                    <li class="link">
+                      <a href="miscellaneous/typealiases.html" data-type="entity-link">Type aliases</a>
+                    </li>
+                    <li class="link">
+                      <a href="miscellaneous/variables.html" data-type="entity-link">Variables</a>
+                    </li>
+            </ul>
+        </li>
+
+
+
+
+    </ul>
+
+</nav>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li>FormlyForm</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/core/src/lib/components/formly.form.ts</code>
+</p>
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                <code><a href="https://angular.io/api/core/DoCheck" target="_blank" >DoCheck</a></code>
+                <code><a href="https://angular.io/api/core/OnChanges" target="_blank" >OnChanges</a></code>
+                <code><a href="https://angular.io/api/core/OnDestroy" target="_blank" >OnDestroy</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>formly-form</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">template</td>
+                <td class="col-md-9"><pre class="line-numbers"><code class="language-html">&lt;formly-field *ngFor&#x3D;&quot;let field of fields&quot;
+  [model]&#x3D;&quot;field.model&quot; [form]&#x3D;&quot;form&quot;
+  [field]&#x3D;&quot;field&quot;
+  [ngClass]&#x3D;&quot;field.className&quot;
+  [options]&#x3D;&quot;options&quot;&gt;
+&lt;/formly-field&gt;
+&lt;ng-content&gt;&lt;/ng-content&gt;
+</code></pre></td>
+            </tr>
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#changeModel">changeModel</a>
+                            </li>
+                            <li>
+                                <a href="#setOptions">setOptions</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Inputs</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#fields">fields</a>
+                            </li>
+                            <li>
+                                <a href="#form">form</a>
+                            </li>
+                            <li>
+                                <a href="#isRoot">isRoot</a>
+                            </li>
+                            <li>
+                                <a href="#model">model</a>
+                            </li>
+                            <li>
+                                <a href="#options">options</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Outputs</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#modelChange">modelChange</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(formlyBuilder: <a href="../injectables/FormlyFormBuilder.html">FormlyFormBuilder</a>, formlyExpression: <a href="../components/FormlyForm.html">FormlyFormExpression</a>, formlyConfig: <a href="../injectables/FormlyConfig.html">FormlyConfig</a>, parentForm: <a href="https://angular.io/api/forms/NgForm" target="_blank">NgForm</a>, parentFormGroup: <a href="https://angular.io/api/forms/FormGroupDirective" target="_blank">FormGroupDirective</a>, parentFormlyForm: <a href="../components/FormlyForm.html">FormlyForm</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="34" class="link-to-prism">src/core/src/lib/components/formly.form.ts:34</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>formlyBuilder</td>
+                                                  
+                                                        <td>
+                                                                    <code><a href="../injectables/FormlyFormBuilder.html" target="_self" >FormlyFormBuilder</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            no
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>formlyExpression</td>
+                                                  
+                                                        <td>
+                                                                    <code><a href="../components/FormlyForm.html" target="_self" >FormlyFormExpression</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            no
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>formlyConfig</td>
+                                                  
+                                                        <td>
+                                                                    <code><a href="../injectables/FormlyConfig.html" target="_self" >FormlyConfig</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            no
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>parentForm</td>
+                                                  
+                                                        <td>
+                                                                    <code><a href="https://angular.io/api/forms/NgForm" target="_blank" >NgForm</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            no
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>parentFormGroup</td>
+                                                  
+                                                        <td>
+                                                                    <code><a href="https://angular.io/api/forms/FormGroupDirective" target="_blank" >FormGroupDirective</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            no
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>parentFormlyForm</td>
+                                                  
+                                                        <td>
+                                                                    <code><a href="../components/FormlyForm.html" target="_self" >FormlyForm</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            no
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+    <section>
+    <h3 id="inputs">Inputs</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-2">
+                        <a name="fields"></a>
+                        <code>fields</code>
+                    </td>
+                    <td class="col-md-10">
+                            <p>
+                            <em>Type:</em>    <code><a href="../interfaces/FormlyFieldConfig.html" target="_self" >FormlyFieldConfig[]</a></code>
+
+                            </p>
+                        <p>
+                            <em>Default value: </em><code>[]</code>
+                        </p>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="26" class="link-to-prism">src/core/src/lib/components/formly.form.ts:26</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-2">
+                        <a name="form"></a>
+                        <code>form</code>
+                    </td>
+                    <td class="col-md-10">
+                            <p>
+                            <em>Type:</em>    <code>FormGroup | FormArray</code>
+
+                            </p>
+                        <p>
+                            <em>Default value: </em><code>new FormGroup({})</code>
+                        </p>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="25" class="link-to-prism">src/core/src/lib/components/formly.form.ts:25</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-2">
+                        <a name="isRoot"></a>
+                        <code>isRoot</code>
+                    </td>
+                    <td class="col-md-10">
+                        <p>
+                            <em>Default value: </em><code>true</code>
+                        </p>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="31" class="link-to-prism">src/core/src/lib/components/formly.form.ts:31</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-2">
+                        <a name="model"></a>
+                        <code>model</code>
+                    </td>
+                    <td class="col-md-10">
+                            <p>
+                            <em>Type:</em>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                            </p>
+                        <p>
+                            <em>Default value: </em><code>{}</code>
+                        </p>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="24" class="link-to-prism">src/core/src/lib/components/formly.form.ts:24</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-2">
+                        <a name="options"></a>
+                        <code>options</code>
+                    </td>
+                    <td class="col-md-10">
+                            <p>
+                            <em>Type:</em>    <code><a href="../interfaces/FormlyFormOptions.html" target="_self" >FormlyFormOptions</a></code>
+
+                            </p>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="27" class="link-to-prism">src/core/src/lib/components/formly.form.ts:27</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+</section>
+    <section>
+    <h3 id="outputs">Outputs</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-2">
+                        <a name="modelChange"></a>
+                        <code>modelChange</code>
+                    </td>
+                    <td class="col-md-10">
+                        <em><code>$event</code> type:</em>    <code><a href="https://angular.io/api/core/EventEmitter" target="_blank" >EventEmitter</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="28" class="link-to-prism">src/core/src/lib/components/formly.form.ts:28</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+</section>
+
+
+    <section>
+    
+        <h3 id="methods">
+            Methods
+        </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="changeModel"></a>
+                        <span class="name">
+                            <b>
+                            changeModel
+                            </b>
+                            <a href="#changeModel"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>changeModel(event: literal type)</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="71" class="link-to-prism">src/core/src/lib/components/formly.form.ts:71</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+
+                            <div class="io-description">
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>event</td>
+                                                        <td>
+                                                                    <code>literal type</code>
+                                                        </td>
+                                                    
+                                                    <td>
+                                                            no
+                                                    </td>
+                                                    
+
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                            <div>
+                            </div>
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                                <div class="io-description">
+                                    
+                                </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="setOptions"></a>
+                        <span class="name">
+                            <b>
+                            setOptions
+                            </b>
+                            <a href="#setOptions"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>setOptions()</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="77" class="link-to-prism">src/core/src/lib/components/formly.form.ts:77</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, DoCheck, OnChanges, Input, SimpleChanges, Optional, EventEmitter, Output, SkipSelf, OnDestroy } from &#x27;@angular/core&#x27;;
+import { FormGroup, FormArray, NgForm, FormGroupDirective, FormControl, AbstractControl } from &#x27;@angular/forms&#x27;;
+import { FormlyFieldConfig, FormlyFormOptions, FormlyValueChangeEvent } from &#x27;./formly.field.config&#x27;;
+import { FormlyFormBuilder } from &#x27;../services/formly.form.builder&#x27;;
+import { FormlyFormExpression } from &#x27;../services/formly.form.expression&#x27;;
+import { FormlyConfig } from &#x27;../services/formly.config&#x27;;
+import { assignModelValue, isNullOrUndefined, reverseDeepMerge, getFieldModel, clone, assignModelToFields } from &#x27;../utils&#x27;;
+import { Subject, Subscription } from &#x27;rxjs&#x27;;
+import { debounceTime, map, tap } from &#x27;rxjs/operators&#x27;;
+
+@Component({
+  selector: &#x27;formly-form&#x27;,
+  template: &#x60;
+    &lt;formly-field *ngFor&#x3D;&quot;let field of fields&quot;
+      [model]&#x3D;&quot;field.model&quot; [form]&#x3D;&quot;form&quot;
+      [field]&#x3D;&quot;field&quot;
+      [ngClass]&#x3D;&quot;field.className&quot;
+      [options]&#x3D;&quot;options&quot;&gt;
+    &lt;/formly-field&gt;
+    &lt;ng-content&gt;&lt;/ng-content&gt;
+  &#x60;,
+})
+export class FormlyForm implements DoCheck, OnChanges, OnDestroy {
+  @Input() model: any &#x3D; {};
+  @Input() form: FormGroup | FormArray &#x3D; new FormGroup({});
+  @Input() fields: FormlyFieldConfig[] &#x3D; [];
+  @Input() options: FormlyFormOptions;
+  @Output() modelChange &#x3D; new EventEmitter&lt;any&gt;();
+
+  /** @internal */
+  @Input() isRoot &#x3D; true;
+
+  private initialModel: any;
+  private modelChangeSubs: Subscription[] &#x3D; [];
+
+  constructor(
+    private formlyBuilder: FormlyFormBuilder,
+    private formlyExpression: FormlyFormExpression,
+    private formlyConfig: FormlyConfig,
+    @Optional() private parentForm: NgForm,
+    @Optional() private parentFormGroup: FormGroupDirective,
+    @Optional() @SkipSelf() private parentFormlyForm: FormlyForm,
+  ) {}
+
+  ngDoCheck() {
+    this.checkExpressionChange();
+  }
+
+  ngOnChanges(changes: SimpleChanges) {
+    if (!this.fields || this.fields.length &#x3D;&#x3D;&#x3D; 0 || !this.isRoot) {
+      return;
+    }
+
+    if (changes.fields || changes.form) {
+      this.model &#x3D; this.model || {};
+      this.form &#x3D; this.form || (new FormGroup({}));
+      this.setOptions();
+      this.clearModelSubscriptions();
+      this.formlyBuilder.buildForm(this.form, this.fields, this.model, this.options);
+      this.trackModelChanges(this.fields);
+      this.updateInitialValue();
+    } else if (changes.model) {
+      this.patchModel(this.model);
+    }
+  }
+
+  ngOnDestroy() {
+    this.clearModelSubscriptions();
+  }
+
+  changeModel(event: { key: string, value: any }) {
+    assignModelValue(this.model, event.key, event.value);
+    this.modelChange.emit(this.model);
+    this.checkExpressionChange();
+  }
+
+  setOptions() {
+    this.options &#x3D; this.options || {};
+
+    this.options.formState &#x3D; this.options.formState || {};
+    if (!this.options.showError) {
+      this.options.showError &#x3D; this.formlyConfig.extras.showError;
+    }
+    if (!this.options.fieldChanges) {
+      this.options.fieldChanges &#x3D; new Subject&lt;FormlyValueChangeEvent&gt;();
+    }
+
+    if (!this.options.resetModel) {
+      this.options.resetModel &#x3D; this.resetModel.bind(this);
+    }
+
+    if (!this.options.parentForm) {
+      this.options.parentForm &#x3D; this.parentFormGroup || this.parentForm;
+    }
+
+    if (!this.options.updateInitialValue) {
+      this.options.updateInitialValue &#x3D; this.updateInitialValue.bind(this);
+    }
+
+    if (!(&lt;any&gt; this.options).resetTrackModelChanges) {
+      (&lt;any&gt; this.options).resetTrackModelChanges &#x3D; () &#x3D;&gt; {
+        this.clearModelSubscriptions();
+        this.trackModelChanges(this.fields);
+      };
+    }
+  }
+
+  private checkExpressionChange() {
+    if (this.isRoot) {
+      this.formlyExpression.checkFields(this.form, this.fields, this.model, this.options);
+    }
+  }
+
+  private trackModelChanges(fields: FormlyFieldConfig[], rootKey: string[] &#x3D; []) {
+    fields.forEach(field &#x3D;&gt; {
+      if (field.key &amp;&amp; field.type &amp;&amp; !field.fieldGroup &amp;&amp; !field.fieldArray) {
+        const valueChanges &#x3D; field.formControl.valueChanges.pipe(
+          field.modelOptions &amp;&amp; field.modelOptions.debounce &amp;&amp; field.modelOptions.debounce.default
+          ? debounceTime(field.modelOptions.debounce.default)
+          : tap(() &#x3D;&gt; {}),
+          map(value &#x3D;&gt; {
+            if (field.parsers &amp;&amp; field.parsers.length &gt; 0) {
+              field.parsers.forEach(parserFn &#x3D;&gt; value &#x3D; parserFn(value));
+            }
+
+            return value;
+          }),
+          tap(value &#x3D;&gt; this.changeModel({ key: [...rootKey, field.key].join(&#x27;.&#x27;), value })),
+        );
+
+        this.modelChangeSubs.push(valueChanges.subscribe());
+      }
+
+      if (field.fieldGroup &amp;&amp; field.fieldGroup.length &gt; 0) {
+        this.trackModelChanges(field.fieldGroup, field.key ? [...rootKey, field.key] : rootKey);
+      }
+    });
+  }
+
+  private clearModelSubscriptions() {
+    this.modelChangeSubs.forEach(sub &#x3D;&gt; sub.unsubscribe());
+    this.modelChangeSubs &#x3D; [];
+  }
+
+  private patchModel(model: any) {
+    assignModelToFields(this.fields, model);
+    this.clearModelSubscriptions();
+    this.resetFieldArray(this.fields, model);
+    this.initializeFormValue(this.form);
+    (&lt;FormGroup&gt; this.form).patchValue(model, { onlySelf: true });
+    this.trackModelChanges(this.fields);
+  }
+
+  private resetModel(model?: any) {
+    model &#x3D; isNullOrUndefined(model) ? this.initialModel : model;
+    this.resetFieldArray(this.fields, model);
+
+    // we should call &#x60;NgForm::resetForm&#x60; to ensure changing &#x60;submitted&#x60; state after resetting form
+    // but only when the current component is a root one.
+    if (!this.parentFormlyForm &amp;&amp; this.options.parentForm &amp;&amp; this.options.parentForm.control &#x3D;&#x3D;&#x3D; this.form) {
+      this.options.parentForm.resetForm(model);
+    } else {
+      this.form.reset(model);
+    }
+
+    (&lt;any&gt; this.options).resetTrackModelChanges();
+  }
+
+  private resetFieldArray(fields: FormlyFieldConfig[], newModel: any) {
+    fields.forEach(field &#x3D;&gt; {
+      if ((field.fieldGroup &amp;&amp; field.fieldGroup.length &gt; 0) || field.fieldArray) {
+        const newFieldModel &#x3D; getFieldModel(newModel, field, true);
+        if (field.fieldArray) {
+          field.fieldGroup &#x3D; field.fieldGroup || [];
+          field.fieldGroup.length &#x3D; 0;
+
+          if (field.model !&#x3D;&#x3D; newFieldModel &amp;&amp; field.model) {
+            field.model.length &#x3D; 0;
+          }
+
+          const formControl &#x3D; &lt;FormArray&gt;field.formControl;
+          while (formControl.length !&#x3D;&#x3D; 0) {
+            formControl.removeAt(0);
+          }
+
+          newFieldModel.forEach((m: any, i: number) &#x3D;&gt; {
+            field.model[i] &#x3D; m;
+            field.fieldGroup.push({ ...clone(field.fieldArray), key: &#x60;${i}&#x60; });
+            this.formlyBuilder.buildForm(formControl, [field.fieldGroup[i]], newFieldModel, this.options);
+          });
+        } else {
+          this.resetFieldArray(field.fieldGroup, newFieldModel);
+        }
+      } else if (field.key &amp;&amp; field.type) {
+        field.formControl.reset(getFieldModel(newModel, field, false));
+      }
+    });
+  }
+
+  private initializeFormValue(control: AbstractControl) {
+    if (control instanceof FormControl) {
+      control.setValue(null);
+    } else if (control instanceof FormGroup) {
+      Object.keys(control.controls).forEach(k &#x3D;&gt; this.initializeFormValue(control.controls[k]));
+    } else if (control instanceof FormArray) {
+      control.controls.forEach(c &#x3D;&gt; this.initializeFormValue(c));
+    }
+  }
+
+  private updateInitialValue() {
+    this.initialModel &#x3D; reverseDeepMerge({}, this.model);
+  }
+}
+</code></pre>
+    </div>
+
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><formly-field *ngFor="let field of fields"  [model]="field.model" [form]="form"  [field]="field"  [ngClass]="field.className"  [options]="options"></formly-field><ng-content></ng-content></div>'
+    var COMPONENTS = [{'name': 'FormlyField', 'selector': 'formly-field'},{'name': 'FormlyForm', 'selector': 'formly-form'},{'name': 'FormlyGroup', 'selector': 'formly-group'},{'name': 'FormlyValidationMessage', 'selector': 'formly-validation-message'}];
+    var DIRECTIVES = [{'name': 'FormlyAttributes', 'selector': '[formlyAttributes]'}];
+    var ACTUAL_COMPONENT = {'name': 'FormlyForm'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+        <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'FormlyForm.html';
+        </script>
+
+       <script src="../js/search/search.js"></script>
+       <script src="../js/search/lunr.min.js"></script>
+       <script src="../js/search/search-lunr.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+       <script src="../js/search/search_index.js"></script>
+
+
+    </body>
+</html>
