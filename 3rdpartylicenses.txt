@@ -76,6 +76,8 @@ THE SOFTWARE.
 
 @angular/material/icon
 
+@angular/material/menu
+
 @angular/material/radio
 
 @angular/material/select
